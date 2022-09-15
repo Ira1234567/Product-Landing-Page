@@ -1,0 +1,124 @@
+
+:root {
+    --main-background-color: rgb(168, 194, 195);
+    --main-font-color: rgb(78, 6, 6);
+    --details-font-color: rgb(250, 139, 79);
+    --main-font-style: 'Kanit', sans-serif;
+
+}
+
+* {
+    background-color: var(--main-background-color);
+    font-family: var(--main-font-style);
+    color: var(--main-font-color);
+}
+
+.top_info {
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+}
+
+.header_img {
+    width: 15%;
+    height: 70%;
+}
+
+.header_element {
+    width: 15%;
+    height: 90%;
+} 
+
+.nav_bar {
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
+.nav-link {
+    padding-left: 25px;
+    color: var(--details-font-color);
+    font-size: larger;
+}
+
+.description_and_form {
+    padding-top: 8%;
+}
+
+.description, .input_form {
+    margin: 0 auto; display: table;
+}
+
+.input_form {
+    margin-top: 15px;
+}
+
+.features_info {
+    margin: 0 auto; display: table;
+    padding-left: 20%;
+    padding-right: 20%; 
+}
+
+.li_title {
+    color: var(--details-font-color);
+    font-weight: bold;
+}
+
+.video {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.video_info {
+    margin: 0 auto; display: table; 
+    width: 20%;
+}
+
+.pricing_list {
+    display: flex;
+    list-style-type: none;
+}
+
+.pricing_list_item {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.pricing_list_item_container {
+    border: 1% solid var(--main-font-color);
+}
+
+.item_text_head, .item_price_value, .item_description, .pricing_list_item_button {
+    margin: 0 auto; display: table;  
+}
+
+.item_text_head {
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.item_price_value {
+    font-weight: bold;
+    color: var(--details-font-color); 
+}
+
+.pricing_list_item_button {
+    background-color: var(--details-font-color);
+}
+
+.item_description {
+    padding-left: 5%;
+}
+
+.extra_info {
+    text-align: right;
+    margin-top: 5%;
+    background-color: var(--details-font-color);
+}
+
+.extra_info_href {
+    padding-right: 5%;
+    background-color: var(--details-font-color);
+}
